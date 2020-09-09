@@ -187,13 +187,14 @@ top: 615px; */
 	margin: 50px 0px 0px;
 	border-radius: 2rem;
 }
-.footer-text{
+.footer{
 	   display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: absolute;
-	    margin: 275px 0px 0px 80px;
-	
+	position: relative;
+	margin: 275px 0px 0px 80px;
+	left:-120px;
+	top:450px;
 	font-size: 18px;
 	font-family: Ubuntu;
 	font-style: normal;
