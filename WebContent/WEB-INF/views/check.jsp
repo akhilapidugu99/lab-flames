@@ -23,8 +23,7 @@ Find it out with FLAMES
  <div class="myform">
      <form method="post" action="${pageContext.request.contextPath}/flames">
       <div class="textbox-1">
-      	
-        <input type="text" placeholder="Enter your name" name="your" required>
+    	<input type="text" placeholder="Enter your name" name="your" required>
         <img class="bg-image" src="./assets/User symbol.svg"><img>
        </div>
         <div class="textbox-2">
@@ -34,8 +33,6 @@ Find it out with FLAMES
         <button type="submit" class="button">FLAME IT UP</button>
   </form>
  </div>
-
-</div> 
  </main>
 
 <footer class="footer"><p class="footer-text">Made with <img src="./assets/prograd-heart.svg"> by ProGrad</p></footer>
